@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+@media screen and (max-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+  font-family: 'Raleway';
+  color: #44545E;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  position: absolute;
+  font-weight: 400;
+}
+
+html {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  text-align: left;
+  padding-left: 200px;
+  padding-bottom: 30px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+nav {
+  font-size: 16px;
+  word-spacing: 70px;
+  text-transform: uppercase;
+  padding: 10px 600px 0px 600px;
+  display: inline-block;
+}
+
+
+p {
+  font-family: 'Lato';
+  padding-top: 20px;
+  margin: 0px;
+}
+
+
+
+/* ========================
+ANCHOR/LINKS
+============================*/
+
+a {
+  text-decoration: none;
+  color: #7B98AA;
+  font-weight: bold;
+  transition: all 300ms;
+}
+
+a:hover {
+  color: #000080;
+  font-style: italic;
+  /* Look up transition */
+}
+
+/* ========================
+BODY STYLING
+============================*/
+
+ul {
+  font-size: 15px;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  margin-bottom: -5px;
+}
+
+h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+h4 {
+  padding-top: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 37px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 12px;
+}
+
+hr {
+  max-width: 1200px;
+  border: 1px solid;
+}
+
+/* ========================
+FOOTER
+============================*/
+
+
+footer {
+  text-align: center;
+  background-color: #CDF3F6;
+  font-family: 'Lato';
+  padding-top: 20px;
+}
+
+footer p {
+  padding-bottom: 30px;
+}
+
+
+
+
+/* ========================
+HEADER IMG STYLE
+============================*/
+header img {
+  padding-top: 10px;
+}
+
+#header-background {
+  background-image: url(images/blog_header_bg.jpg);
+  object-fit: fill;
+  margin-top: auto;
+  background-size: cover;
+}
+
+#text {
+  position: absolute;
+  color: white;
+  left: 680px;
+  top: 215px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 30px;
+}
+
+
+/* ========================
+CLASSES
+============================*/
+
+
+.list {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.images {
+  width: 30px;
+  height: 30px;
+  word-spacing: 60px;
+  padding: 1em;
+}
+
+/* ========================
+EMAIL BUTTON
+============================*/
+
+/* Style the form - display items horizontally */
+.form-inline {
+  flex-flow: row wrap;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
