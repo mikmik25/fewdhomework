@@ -1,0 +1,138 @@
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+/* ---- main ----- */
+
+body {
+  font-family: 'DM Serif Text';
+  background-image: url('../img/bg.png');
+  background-attachment: fixed;
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #2b5c83;
+}
+
+header {
+  display: inline-flex;
+  background-color: #73e2ff;
+}
+
+/* ---- navigation  ----- */
+
+nav a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #2b5c83;
+}
+
+header nav {
+  display: inline;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #89cfe1;
+  padding: 25px 0px 25px 90px;
+  word-spacing: 20px;
+}
+
+.hamburger {
+  font-size: 30px;
+  display: none;
+}
+
+/* ----- social links ------ */
+
+.social {
+  display: inline-flex;
+  padding-left: 1158px;
+  position: fixed;
+  margin-top: 2px;
+}
+
+.social i {
+  padding-left: 80px;
+  font-size: 50px;
+  color: #2b5c83;
+}
+
+.social i:hover {
+  color: #6c99c1;
+}
+
+/* ---- Start of Page ----- */
+
+section {
+  font-size: 60px;
+  margin-left: 1180px;
+  margin-top: 200px;
+  position: fixed;
+
+}
+
+section a {
+  text-decoration: none;
+  color: #2b5c83;
+}
+
+/* ------styles------- */
+
+
+h1 {
+  font-size: 68px;
+  text-align: center;
+  padding-left: 590px;
+  position: fixed;
+  margin: auto;
+  top: 0px;
+}
+
+
+
+
+h2 {
+  padding: 350px 0px 0px 240px;
+  font-size: 58px;
+  position: fixed;
+  color: white;
+}
+
+
+/* ----media screens----- */
+
+@media screen and (max-width: 1040px) {
+
+  .hamburger {
+    display: block;
+    margin-right: 800px;
+    text-decoration: none;
+  }
+
+  nav a,
+  h1,
+  .social {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 550px) {
+  body {
+    background-position: fixed;
+  }
