@@ -35,7 +35,3 @@ if (cashRegister >= customer) {
 }
 
 
-var customer = 100
-var cashRegister = 10
-var withdraw= 60
-
