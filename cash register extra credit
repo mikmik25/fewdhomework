@@ -1,0 +1,41 @@
+// If we have enough money in the cash register, use a console.log
+//statement to print out: "Have a nice day." like so: console.log(“Have a
+//nice day.”)
+
+//• If we don't have enough money in the cash register, but have enough
+//in the cash register and safe combined, print out: "Please wait while I
+//go to the safe."
+
+//• If we don't have enough money in the cash register and the safe
+//combined, print out: "Please wait while I go to the bank."
+
+
+//var cashRegister = 35
+//var safe = 10
+//var customer = 20
+
+//console.log(cashRegister);
+//console.log(safe);
+//console.log(customer);
+
+//var cashRegister = 5
+//var safe = 10
+//var customer = 20
+
+//var cashRegister = 5
+//var safe = 10
+//var customer = 10
+
+if (cashRegister >= customer) {
+  console.log("Have a nice day!");
+} else if (cashRegister + safe <= customer){
+  console.log("Please wait while I go to the safe.");
+} else { 
+  console.log("Please wait while I go to the bank.");
+}
+
+
+var customer = 100
+var cashRegister = 10
+var withdraw= 60
+
