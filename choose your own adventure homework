@@ -1,0 +1,45 @@
+function playGame(){
+  var enterDungeon = confirm ("Welcome wild one! Do you dare enter the Dungeon?");
+
+  if (enterDungeon === true){ 
+    // entering the dungeon
+    var rightPath = prompt ("You have entered the Dungeon! There are three doors to your right. Do you want to enter door 1, 2, or 3?");
+     
+      if(rightPath === 2){
+        //door 2
+      alert ("Danger! You have died.")
+    } else if (rightPath === 3){
+      //door 3
+      alert ("Danger! You have died");
+    } else {
+      //door 1
+      alert("There's a blue eyed white dragon! Let's Fight!!");
+    }
+ 
+  
+  var doorChoice = prompt("You walked into the monster door, what weapon will you choose: A long sword, bow, or spear")
+  if(doorChoice === "spear"){
+    alert("You died, maybe another life you will defeat it.");
+  } else if(doorChoice === "bow"){
+      alert("You died, maybe another life you will defeat it.");
+    } else {
+        alert("You have defeated the dragon! Well done wild one.");
+      }
+  var afterBattle = prompt("You have lived, and deserve a good meal! What would you like: a turkey leg, fruits, nothing?")
+    if (afterBattle === "nothing"){
+      alert("You didn't eat, you died. The end");
+    } else if(afterBattle === "fruits"){
+      alert("You didn't eat much, you died. The end");
+    } else {
+      alert("You ate a delicious food!");
+      alert("Now,it's time for your slumber.");
+      alert("You've been knocked out by the turkey leg.");
+    }
+    }
+
+ else {
+   alert("You didn't want to enter? okay thats fine, your boring.");
+ }
+}
+
+playGame();
